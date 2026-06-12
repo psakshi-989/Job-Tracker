@@ -1,4 +1,4 @@
-export const API_BASE_URL = "http://localhost:5000/api";
+export const API_BASE_URL = "https://job-tracker-zsha.onrender.com";
 export const JOBS_ENDPOINT = `${API_BASE_URL}/jobs`;
 
 export const JOB_STATUS = {
