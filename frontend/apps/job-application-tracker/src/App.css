@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: inherit;
+  background: #f7f6f3;
+}
+
+.main-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #f7f6f3;
+}
+
+.app-header {
+  background: #37352f;
+  padding: 36px 24px;
+  text-align: center;
+}
+
+.app-main {
+  flex: 1;
+  padding: 40px 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.error-message {
+  background: #fcebeb;
+  border: 0.5px solid #f09595;
+  color: #a32d2d;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 0.875rem;
+}
+
+@media (max-width: 768px) {
+  .app-header {
+    padding: 24px 16px;
+  }
+  .app-main {
+    padding: 24px 16px;
+  }
+}
